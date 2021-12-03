@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "![license](https://img.shields.io/github/license/EllaFerreira/Note-Taker) ![Inquirer](https://img.shields.io/badge/Package-Dotenv-red.svg) ![MySQL](https://img.shields.io/badge/AppWith-MySQL-purple.svg) ![Nodejs](https://img.shields.io/badge/AppWith-NodeJS-blue.svg) ![Express](https://img.shields.io/badge/AppWith-ExpressJS-orange.svg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EllaFerreira/E-Commerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EllaFerreira/E-Commerce/issues"
+  },
+  "homepage": "https://github.com/EllaFerreira/E-Commerce#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
