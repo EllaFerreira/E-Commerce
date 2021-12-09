@@ -8,17 +8,23 @@
 
 ## About this Project
 
+E-commerce is the largest sector of the elestronics industry, platforms like Shopify, E-bay and Amazon were generating an estimated 29 trillion back on 2019. There are not a world without e-commerce, it is a easy and secure way to buy stuff.
+
+Thinking about practicality the project proposed is showing to the user how a retail can controll his stock and sell the products using `MySQL database` in a backend app.
 
 
 ## Mock up
 
 ![mockup]()
 
+[walkthrough video]()
+
 ## Content
 
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Technologies](#technologies)
+- [Installation](#Installation)
 - [Sources](#sources)
 - [Project Creator](#project-creator)
 
@@ -52,16 +58,21 @@ THEN I am able to successfully create, update, and delete data in my database
 
 - Node/Express js - backend;
 - JavaScript;
-- File System;
+- Sequelize;
+- Insomnia - to GET routes;
 - Console.table npm package;
 - Mysql2 npm package;
 - Inquirer npm package;
+- Dotenv;
+
+## Installation
 
 ## Sources
 
 - [Express](https://expressjs.com/en/starter/hello-world.html)
 - [MySQL2](https://www.npmjs.com/package/mysql2)
-- [Asciiart-logo](https://www.npmjs.com/package/asciiart-logo)
+- [Sequelize](https://www.npmjs.com/package/sequelize)
+
 
 ## Project Creator
 
