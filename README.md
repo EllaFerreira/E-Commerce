@@ -70,7 +70,7 @@ If you want to run this locally on your `machine`:
 - Finally run `node server` to run the node application.
 
 **Testing the Routes with Insomnia**
-[walkthrough video]()
+[walkthrough video](https://drive.google.com/file/d/15-vo58rVAPzAz-OO_aBSgy707Es3rNzF/view?usp=sharing)
 
 ## Sources
 
