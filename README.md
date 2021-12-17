@@ -12,10 +12,6 @@ E-commerce is the largest sector of the elestronics industry, platforms like Sho
 
 Thinking about practicality the project proposed is showing to the user how a retail can controll his stock and sell the products using `MySQL database` in a backend app.
 
-## Mock up
-
-[walkthrough video]()
-
 ## Content
 
 - [User Story](#user-story)
@@ -61,6 +57,20 @@ THEN I am able to successfully create, update, and delete data in my database
 - Dotenv;
 
 ## Installation
+
+If you want to run this locally on your `machine`:
+
+- Clone to your local machine from this repo.
+- Open the repo in your code editor (vs code for example)
+- Open with F12 the command-line.
+- Run `npm install` on the terminal to install the packages, when it's done,
+- Run `mysql -u root -p` to connect to the database,
+- Also using the command-line now run `SOURCE db/schema.sql` to create the tables,
+- After you create the tables you have to populate it run `node seeds/index`
+- Finally run `node server` to run the node application.
+
+**Testing the Routes with Insomnia**
+[walkthrough video]()
 
 ## Sources
 
