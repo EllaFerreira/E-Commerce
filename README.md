@@ -1,4 +1,4 @@
-# E-Commerce Backend 
+# E-Commerce Backend
 
 ![license](https://img.shields.io/github/license/EllaFerreira/Note-Taker)
 ![Inquirer](https://img.shields.io/badge/Package-Dotenv-red.svg)
@@ -12,10 +12,7 @@ E-commerce is the largest sector of the elestronics industry, platforms like Sho
 
 Thinking about practicality the project proposed is showing to the user how a retail can controll his stock and sell the products using `MySQL database` in a backend app.
 
-
 ## Mock up
-
-![mockup]()
 
 [walkthrough video]()
 
@@ -34,7 +31,6 @@ Thinking about practicality the project proposed is showing to the user how a re
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
-
 ```
 
 ## Acceptance Criteria
@@ -51,7 +47,6 @@ WHEN I open API GET routes in Insomnia Core for categories, products, or tags
 THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
-
 ```
 
 ## Technologies
@@ -73,9 +68,8 @@ THEN I am able to successfully create, update, and delete data in my database
 - [MySQL2](https://www.npmjs.com/package/mysql2)
 - [Sequelize](https://www.npmjs.com/package/sequelize)
 
-
 ## Project Creator
 
 [EllaFerreira](https://github.com/EllaFerreira)
 
-© 2021 Team Profile Generator. All rights reserved
+© 2021 E-Commerce. All rights reserved

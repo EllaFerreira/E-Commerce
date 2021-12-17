@@ -11,19 +11,19 @@ router.get("/", (req, res) => {
     include: [
       {
         model: Category,
-        attributes: ['category_name']
+        attributes: ["category_name"],
       },
       {
         model: Tag,
-        attributes: ['tag_name']
-      }
-    ]
-  }
-  ).then(productData => res.json(productData))
-  .catch(err => {
-    console.err(err);
-    res.status(500).json(err)
+        attributes: ["tag_name"],
+      },
+    ],
   })
+    .then((productData) => res.json(productData))
+    .catch((err) => {
+      console.err(err);
+      res.status(500).json(err);
+    });
 });
 
 // get one product
@@ -32,28 +32,31 @@ router.get("/:id", (req, res) => {
   // be sure to include its associated Category and Tag data
   Product.findOne({
     where: {
-      id: req.params.id
+      id: req.params.id,
     },
-    include: [{
-      model: Category,
-      attributes: ['category_name']
-    }
-  ]
-  }).then(productData => res.json(productData))
-  .catch(err => {
-    console.err(err)
-    res.status(500).json(err)
+    include: [
+      {
+        model: Category,
+        attributes: ["category_name"],
+      },
+    ],
   })
+    .then((productData) => res.json(productData))
+    .catch((err) => {
+      console.err(err);
+      res.status(500).json(err);
+    });
 });
 
 // create new product
 router.post("/", (req, res) => {
-  /* req.body should look like this...
+  /* req.body
     {
-      product_name: "Basketball",
-      price: 200.00,
-      stock: 3,
-      tagIds: [1, 2, 3, 4]
+      category_id: 1,
+      product_name: "Blue skirt",
+      price: 80.00,
+      stock: 9,
+      tagIds: [1]
     }
   */
   Product.create(req.body)
